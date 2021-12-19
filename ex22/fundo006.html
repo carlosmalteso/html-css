@@ -7,15 +7,19 @@
     <title>Fundos</title>
     <style>
         body {
-            height: 100vh;
-            background-color: black;
+           height: 100vh;
+           /*  background-color: black;
             background-image: url(Imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: repeat-y;
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: fixed; */
+
+            background: black url('Imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
+            text-indent: 30px;
             background-color: white;
             max-width: 400px;
             padding: 10px;
@@ -23,6 +27,10 @@
             border: 1px solid blue;
             border-radius: 10px;
         }        
+        /*
+        shorthand background 
+        color > image > position > repeat > {size* ainda não funciona} > attachment
+        */
     </style>
 </head>
 <body>
